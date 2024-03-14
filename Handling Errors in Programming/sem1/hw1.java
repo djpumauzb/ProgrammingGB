@@ -1,11 +1,12 @@
 /**
-Реализуйте 3 метода, чтобы в каждом из них получить разные исключения.
-
-Метод `arrayOutOfBoundsException` - Ошибка, связанная с выходом за пределы массива
-Метод `divisionByZero` - Деление на 0
-Метод `numberFormatException` - Ошибка преобразования строки в число
-
-Важно: они не должны принимать никаких аргументов
+ * Реализуйте 3 метода, чтобы в каждом из них получить разные исключения.
+ * 
+ * Метод `arrayOutOfBoundsException` - Ошибка, связанная с выходом за пределы
+ * массива
+ * Метод `divisionByZero` - Деление на 0
+ * Метод `numberFormatException` - Ошибка преобразования строки в число
+ * 
+ * Важно: они не должны принимать никаких аргументов
  */
 public class hw1 {
     public static void main(String[] args) {
@@ -27,21 +28,22 @@ public class hw1 {
             System.out.println("Ошибка преобразования строки в число");
         }
     }
-    
+
     class Answer {
         public static void arrayOutOfBoundsException() {
             // Напишите свое решение ниже
-          
-    }
-    
+            int[] array = new int[1];
+            int number = array[2];
+        }
+
         public static void divisionByZero() {
             // Напишите свое решение ниже
-          
-    }
-    
+            int result = 10 / 0;
+        }
+
         public static void numberFormatException() {
             // Напишите свое решение ниже
-           
-     }
+            int number = Integer.parseInt("qwe");
+        }
     }
 }
