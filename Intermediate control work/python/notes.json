@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Meet",
+        "body": "Meet a friend at 10 am",
+        "timestamp": "2024-03-23 12:01"
+    },
+    {
+        "id": 2,
+        "title": "Dinner",
+        "body": "Dinner with my Family on ATHUS kafe",
+        "timestamp": "2024-03-23 12:01"
+    }
+]
